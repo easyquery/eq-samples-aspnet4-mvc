@@ -30,16 +30,18 @@ Part of [EasyQuery samples for ASP.NET MVC 5 (.NET Framework)](../README.md).
 
 ## License key
 
-EasyQuery needs a license key. Get a free 30-day trial key on
-[korzh.com](https://korzh.com/easyquery?utm_source=github&utm_medium=sample&utm_campaign=eq-samples-aspnet4-mvc&utm_content=AdvancedSearch#get-started).
+You don't need one to start. On the first run the sample shows a **No license** dialog: enter your
+email, then the code we send to it, and you get a free 30-day trial key on the spot. The key is saved to `EasyQuery.lck`; restart the sample to apply it.
 
-Put it into `Web.config`:
+Already have a key? Put it into `Web.config` and the dialog won't appear:
 
 ```xml
 <appSettings>
-  <add key="EasyQuery:LicenseKey" value="your trial key goes here" />
+  <add key="EasyQuery:LicenseKey" value="your key goes here" />
 </appSettings>
 ```
+
+Ready to buy? See the [licensing options on korzh.com](https://korzh.com/easyquery?utm_source=github&utm_medium=sample&utm_campaign=eq-samples-aspnet4-mvc&utm_content=AdvancedSearch#licensing).
 
 ## Sample database
 
